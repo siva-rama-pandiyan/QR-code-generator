@@ -49,7 +49,7 @@
           <p>
             Enter your URL below to generate a QR code and download the image
           </p>
-          <form action="" id="generate-for" class="mt-4">
+          <form action="" id="generate-form" class="mt-4">
             <input
               id="url"
               type="url"
@@ -86,7 +86,7 @@
       </div>
 
       <!-- Generted QR code -->
-      <div
+      <div id="generated"
         class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20"
       >
         <!-- Spinner-->
@@ -109,7 +109,7 @@
           <span class="sr-only">Loading...</span>
         </div>
         <!--QR code output-->
-        <div id="qrCode" class="m-auto"></div>
+        <div id="qrcode" class="m-auto"></div>
       </div>
     </main>
   </body>
